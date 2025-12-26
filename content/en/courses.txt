@@ -1,0 +1,64 @@
+Engineering Courses
+[- As engineering students, we deepen our specialization each semester, building the technical and practical expertise required to excel in the professional workforce.]
+{-
+  $> == Semester 5 ==
+    <--- Soft & Human Skills
+    *- Integration and Applications - Probability
+    *- Core Computer Science
+    *- Numerical Analysis and Statistics
+    *- Signal Processing and Automation
+    *- Modeling and Architecture ---> ***
+
+  $> == Semester 6 ==
+    <--- Soft & Human Skills
+    *- Telecommunications
+    *- Networks
+    *- Scientific Computing and Data Analysis
+    *- Object-Oriented Technology
+    *- Architecture and Systems ---> ***
+}
+{-
+  $> == Semester 7 ==
+    <--- Soft & Human Skills
+    *- Functional Programming
+    *- Theory of Automata and Languages
+    *- Software and Systems Engineering
+    *- Optimization and Operations Research
+    *- Concurrent and Communicating Systems ---> ***
+
+  $> == Semester 8 ==
+    <--- Soft & Human Skills
+    *- Concurrent and Communicating Software
+    *- Computer Graphics and Deep Learning
+    *- Formal Methods
+    *- Emerging Programming Paradigms
+    *- Semantics and Language Translation ---> ***
+}
+
+$VSPACE
+
+[- We also engage in technical group projects, which cultivate teamwork and long-term project planning. These experiences teach us to adapt to unforeseen challenges and collaborate effectively in distributed environments. Here are some of the major projects I have contributed to:]
+{|
+  == Distributed Application in Java <em>- Second year of engineering school, 2024</em> ==
+  The objective was to design a system that extends a Java server by implementing mobile agents across a network. \\
+  Based on =>https://dl.acm.org/doi/10.1145/320385.320415<<this paper>>, we conducted performance benchmarks against standard RMI (Remote Method Invocation) interactions. \\
+  <em>Tech : Java, RMI, Network Sockets, Multithreading, Custom Classloaders</em> ***
+}
+{|
+  == Brick Breaker Game in OCaml <em>- Second year of engineering school, 2024</em> ==
+  The goal of this project was to develop a fully functional Brick Breaker game using strictly functional programming principles. \\
+  This project was particularly insightful for mastering recursion, immutability, and state management without side effects. \\
+  <em>Tech : OCaml, Functional Paradigms, Monads, Algebraic Effects, Flux</em> ***
+}
+{|
+  == Real-Time Ant Simulation in Java <em>- First year of engineering school, 2024</em> ==
+  In this open-ended project, we developed a real-time simulation software using Java and Swing. We created an ant colony simulation where users can interact by placing resources or obstacles in real-time. \\
+  Working in a team of eight, we implemented Agile methodologies and utilized various collaborative tools to manage the development lifecycle. \\
+  <em>Tech : Java, Swing (GUI), JUnit 4 (Testing), Agile (Scrum), GitLab </em> ***
+}
+{|
+  == Timetable Solver in Python <em>- Second year of preparatory school, 2023</em> ==
+  The challenge was to generate automated school schedules while satisfying complex constraints, such as teacher availability and classroom capacity. \\
+  Developed in Python using the Simulated Annealing algorithm, I took the lead of our eight-person team. This experience provided valuable lessons in team organization and project management. \\
+  <em>Tech : Python, Metaheuristics (Simulated Annealing), Algorithmic Optimization </em> ***
+}

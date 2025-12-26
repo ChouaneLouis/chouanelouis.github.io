@@ -1,0 +1,19 @@
+Civic Engagement
+[- As a committed citizen, I am actively involved in community and student life, contributing my time and technical skills to collective projects.]
+{|
+  == Capitole du Libre ==
+  Representing the Net7 student association, I participated in "Capitole du Libre" on November 16-17, 2024. \\
+  During this major event dedicated to open-source software and digital sovereignty, I assisted participants and hosted technical booths and tutorials. This experience allowed me to share my passion for free software with the public and engage with the local developer community. ***
+  >>https://capitoledulibre.org/<<
+}
+{|
+  == Gr'INP Club ==
+  I contribute to the Gr'INP club by leading supervised climbing sessions, discovery workshops, and major events such as "Climbing Night." \\
+  To ensure the highest safety standards and quality instruction, I completed the ISAE training (Instructor on Artificial Climbing Structures). ***
+  >>https://www.bde.inp-toulouse.fr/clubs/grinp/fiche/<<
+}
+{|
+  == Digital Sciences Student Representative ==
+  I serve as the elected representative for Digital Science students, acting as a key liaison between the student body and the faculty administration. \\
+  I attend monthly board meetings to discuss curriculum improvements, resolve organizational issues, and ensure that student feedback is effectively integrated into school decisions. This role has significantly developed my mediation, and active listening skills. ***
+}

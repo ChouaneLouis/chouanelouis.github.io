@@ -1,0 +1,16 @@
+International Mobility
+[- I am committed to developing a global professional perspective by seeking opportunities to work and study in diverse linguistic and cultural environments.]
+{-
+  <img class="avg-img" src="../images/portugal.jpg" />
+  [< Having studied Portuguese as a second language, I completed a professional immersion in Portugal at Silva e Rolo Construções. This experience allowed me to practice the language in a real-world setting and adapt to international work standards.]
+}
+{~
+  <img class="avg-img" src="../images/angleterre.jpg" />
+  [< To further refine my professional English and experience a different engineering culture, I am currently seeking a second-year internship opportunity in the United Kingdom for 2026.]
+}
+(*
+{-
+  <img class="avg-img" src="../images/canada.jpg" />
+  [< I am also planning an academic exchange semester at a Canadian university during my third year. This goal aims to broaden my technical horizons within North America's dynamic digital science ecosystem.]
+}
+*)

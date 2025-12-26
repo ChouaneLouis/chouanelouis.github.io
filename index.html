@@ -2,6 +2,42 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="refresh" content="0;url=fr/index.html">
+  <title>Louis Chouane's ePortfolio</title>
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
+<body>
+  <div id="bg"></div>
+  <div id="overlay"></div>
+
+  <header>
+    <h1>Louis Chouane</h1>
+
+    <button id="menu-toggle" aria-label="Menu">≡</button>
+  </header>
+
+  <aside id="side-menu">
+    <nav>
+      <button data-article="welcome">WELCOME</button>
+      <button data-article="courses">ENGINEERING COURSE</button>
+      <button data-article="career">CAREER DEVELOPMENT</button>
+      <button data-article="mobility">INTERNATIONAL MOBILITY</button>
+      <button data-article="engagement">CIVIC ENGAGEMENT</button>
+      <button data-article="activities">SPORT & OTHER ACTIVITIES</button>
+
+      <!--
+      <button id="langue_switch">
+        <img id="flag" src="./images/drapeau_en.png" alt="language switch">
+      </button>
+      -->
+    </nav>
+  </aside>
+
+  <main>
+    <article id="content">
+    </article>
+  </main>
+
+  <script src="./scripts/fetch_content.js"></script>
+  <script src="./scripts/open_close_nav_menu.js"></script>
+</body>
 </html> 

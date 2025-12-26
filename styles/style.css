@@ -8,8 +8,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
-
+  --white: #f5f5f5;
   --light-green : #6A874F;
   --green : #334433;
   --dark-green: #263526;
@@ -39,7 +38,7 @@ body {
   max-width: 1100px; /* Prend au maximum 1200 pixel de la largeur de la fenêtre */
   height: 100%;
   box-shadow: 0 0px 8px 0 var(--green);
-  background-color: #f5f5f5;
+  background-color: var(--white);
   position: fixed;
 
   z-index: 5;
@@ -52,6 +51,24 @@ a {
 
 p a:hover {
   text-decoration: underline;
+}
+
+.bouton {
+  padding: 0 5px;
+  min-width: 100px;
+}
+
+.bouton-fleche {
+  min-width: 30px;
+}
+
+.bouton:hover, .bouton-fleche:hover {
+  background-color: var(--light-green);
+  color: #fff;
+}
+
+.vspace {
+  height: 50px;
 }
 
 .ligne-centre {
@@ -98,6 +115,10 @@ p a:hover {
   color: var(--green);
 }
 
+.ligne-element h3 em {
+  font-size: 0.8em;
+}
+
 .ligne-chrono {
   display: flex;
   align-items: center;
@@ -129,7 +150,7 @@ p a:hover {
 
 .ligne-chrono em + div + div {
   padding-left: 20px;
-  border-left: solid 2px var(--light-green);
+  border-left: solid var(--light-green) 2px;
 }
 
 .bouton, .bouton-fleche {
@@ -145,19 +166,6 @@ p a:hover {
   transition: 0.3s;
 }
 
-.bouton {
-  width: 100px;
-}
-
-.bouton-fleche {
-  min-width: 30px;
-}
-
-.bouton:hover, .bouton-fleche:hover {
-  background-color: var(--light-green);
-  color: #fff;
-}
-
 
 /* HEADER */
 
@@ -167,7 +175,7 @@ header {
   width: 100%;
   height: 80px;
   box-shadow: 0 8px 4px -2px var(--shadow);
-  background-color: #f5f5f5;
+  background-color: var(--white);
 
   display: flex;
   justify-content: space-between;
@@ -184,36 +192,83 @@ header h1 {
   color: var(--dark-green);
 }
 
-nav {
-  margin-right: 20px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+#menu-toggle {
+  margin: 0 30px 0 0;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  z-index: 30;
 }
 
-nav a {
+/* NAVIGATION */
+
+#side-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 350px;
+  height: 100vh;
+
+  padding: 110px 0;
+
+  box-shadow: -8px 0 4px -2px var(--shadow);
+  background: var(--white);
+
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+
+  z-index: 14;
+}
+
+#side-menu.open {
+  transform: translateX(0);
+}
+
+#side-menu nav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#side-menu button {
+  padding: 0;
   margin: 10px 10px;
-  color: var(--gray);
+
+  background: none;
+  border: none;
+
   font-family: "Roboto";
-  font-size: 1.2em;
+  font-size: 1.3em;
+  color: var(--gray);
+}
+
+#side-menu button:hover {
+  text-decoration: underline;
+}
+
+#overlay {
+  position: fixed;
+  inset: 0;
+  background: #0002;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 13;
+}
+
+#overlay.show {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 #langue_switch {
   border-radius: 20px;
   box-shadow: 0 1px 4px 3px var(--shadow);
 
-/*  transition: 0.3s;*/
-
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-
-/*#langue_switch:hover {
-  box-shadow: 0 1px 4px 3px var(--shadow);
-  background-color: var(--shadow);
-}*/
 
 #langue_switch img {
   width: 40px;
@@ -242,12 +297,9 @@ main {
   gap: 0;*/
 }
 
-main article {
+#content {
   margin: 0 30px;
-  padding-top: 80px;
-
-  min-height: 100dvh;
-  box-shadow: 0 3px var(--shadow);
+  padding: 80px;
 
   display: flex;
   flex-direction: column;
@@ -255,7 +307,7 @@ main article {
   align-items: center;
 }
 
-main article h2 {
+#content h2 {
   margin-bottom: 20px;
 
   text-align: center;
@@ -265,7 +317,7 @@ main article h2 {
   color: var(--dark-green);
 }
 
-main article p {
+#content p {
   margin: 10px 0 16px 0;
   text-align: center;
 
@@ -273,17 +325,35 @@ main article p {
   color: var(--green);
 }
 
-main article div p {
+#content div p {
   text-align: justify;
 }
 
-main article li {
+#content li {
   font-size: 1.1em;
   color: var(--green);
 }
 
-main article .intro {
+#content .texte-centre {
   max-width: 630px;
+}
+
+#content .texte-gauche {
+  width: 40%;
+
+  text-align: left;
+}
+
+#content .texte-droit, #content .ligne-centre-inverse .texte-gauche {
+  width: 40%;
+
+  text-align: right;
+}
+
+#content .ligne-centre-inverse .texte-droit {
+  width: 40%;
+
+  text-align: left;
 }
 
 /* ARTICLE BIENVENUE */
@@ -324,11 +394,7 @@ main article .intro {
 /* ACTIVITE PERSONNEL */
 
 /* ARTICLE COURS */
-#cours-ingenierie .ligne-centre {
-  gap: 20px;
-}
-
-#cours-ingenierie .semestre {
+.semestre {
   padding: 0 20px;
 
   width: 400px;
@@ -338,20 +404,8 @@ main article .intro {
 
 /* MOBILITE */
 
-#mobilite img {
+.avg-img {
   margin: 0 15px;
   width: 300px;
   height: 200px;
-}
-
-#mobilite .ligne-centre .description {
-  width: 40%;
-
-  text-align: left;
-}
-
-#mobilite .ligne-centre-inverse .description {
-  width: 40%;
-
-  text-align: right;
 }

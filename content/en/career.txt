@@ -1,0 +1,17 @@
+Career Development
+[- Throughout my academic journey, I have completed several internships both within and outside the engineering field. these experiences have been technically and personally enriching, helping me refine my professional objectives and confirm my passion for digital science.]
+
+{*
+  *> July - Aug 2025 == Internship at Silva e Rolo Construções ==
+  I contributed to residential construction projects in Portugal. \\
+  This experience provided me with a valuable perspective on high-intensity manual labor and the rigor required in the construction industry. Operating in a foreign country also significantly enhanced my ability to collaborate in an international and multilingual environment. ***
+
+  *> April - May 2024 == Internship at RTE Paris ==
+  I joined the DDL (Software Development Department) to contribute to the design phase of a modernized version of "=>https://antares-simulator.org/<<Antares>>" — an open-source forecasting tool used to conduct studies on the balance of electricity supply and demand across the European grid. \\
+  My work focused on enhancing the robustness of the node model grammar using ANTLR. I implemented comprehensive unit tests that allowed me to identify and resolve critical functional bugs within the grammar. Additionally, I performed technical refactoring, translating legacy C++ logic into modular, well-documented Python code to improve maintainability and system generality. \\
+  This immersion into large-scale software engineering confirmed my career path, providing hands-on experience with industrial-grade codebases and energy-sector challenges. ***
+
+  *> February 2023 == Internship at SERAAP and SETAP ==
+  Seeking to choose between IT and electronics, I interned at SERAAP and SETAP, specializing in production line design and electrical cabinet automation. \\
+  This experience was a turning point; while I appreciated the logic of automation, it clarified that my true interest lay in higher-level software abstraction and digital science, leading me to focus exclusively on IT. ***
+}

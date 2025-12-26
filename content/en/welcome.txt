@@ -1,0 +1,18 @@
+Welcome
+{-
+  <img id="moi" src="../images/moi.jpeg" /> 
+  {
+    [
+      A long-time computer science enthusiast, I am currently a student at =>https://www.enseeiht.fr/fr/index.html<<ENSEEIHT>>, specializing in Digital Sciences within the Software and Systems Engineering track. I am driven by solving complex technical challenges and developing robust software solutions.
+    ]
+    {-
+      ()>$PATH/cv_louis_chouane.pdf<<Download my CV>>
+    }
+  }
+}
+<div id="video">
+    <iframe src="https://www.youtube.com/embed/jqtMWkKsljQ?si=J7GC7No6xQz97lVN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+[
+  I am always open to discussing new opportunities or technical projects.\\You can contact me by email: louis.chouane@etu.toulouse-inp.fr,\\or by phone: +33 6 58 44 32 16
+]
