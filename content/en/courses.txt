@@ -39,13 +39,13 @@ $VSPACE
 
 [- We also engage in technical group projects, which cultivate teamwork and long-term project planning. These experiences teach us to adapt to unforeseen challenges and collaborate effectively in distributed environments. Here are some of the major projects I have contributed to:]
 {|
-  == Distributed Application in Java <em>- Second year of engineering school, 2024</em> ==
+  == Distributed Application in Java <em>- Second year of engineering school, 2025</em> ==
   The objective was to design a system that extends a Java server by implementing mobile agents across a network. \\
   Based on =>https://dl.acm.org/doi/10.1145/320385.320415<<this paper>>, we conducted performance benchmarks against standard RMI (Remote Method Invocation) interactions. \\
   <em>Tech : Java, RMI, Network Sockets, Multithreading, Custom Classloaders</em> ***
 }
 {|
-  == Brick Breaker Game in OCaml <em>- Second year of engineering school, 2024</em> ==
+  == Brick Breaker Game in OCaml <em>- Second year of engineering school, 2025</em> ==
   The goal of this project was to develop a fully functional Brick Breaker game using strictly functional programming principles. \\
   This project was particularly insightful for mastering recursion, immutability, and state management without side effects. \\
   <em>Tech : OCaml, Functional Paradigms, Monads, Algebraic Effects, Flux</em> ***

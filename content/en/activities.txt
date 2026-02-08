@@ -1,4 +1,9 @@
-Sport and Other Activities
+Extracuriculum Activities
+{|
+  == Digital Sciences Student Representative ==
+  I serve as the elected representative for Digital Science students, acting as a key liaison between the student body and the faculty administration. \\
+  I attend monthly board meetings to discuss curriculum improvements, resolve organizational issues, and ensure that student feedback is effectively integrated into school decisions. This role has significantly developed my mediation, and active listening skills. ***
+}
 {|
   == Climbing <em>- 4 years</em> ==
   Practicing climbing for four years has instilled in me resilience and the importance of collaboration to overcome technical challenges on difficult routes. \\
@@ -6,12 +11,17 @@ Sport and Other Activities
   I am currently an active member of the Gr'INP club, where I lead and secure open-access sessions at the climbing gym. ***
 }
 {|
-  == Organ <em>- 9 years</em> ==
-  As an enthusiast of Baroque music, I completed nine years of organ and music theory studies at the Thouars Conservatory. \\
+  == Capitole du Libre ==
+  Representing the Net7 student association, I participated in "Capitole du Libre" on November 16-17, 2024. \\
+  During this major event dedicated to open-source software and digital sovereignty, I assisted participants and hosted technical booths and tutorials. This experience allowed me to share my passion for free software with the public and engage with the local developer community. ***
+}
+{|
+  == Organ <em>- 11 years</em> ==
+  As an enthusiast of Baroque music, I completed eleven years of organ and music theory studies at the Thouars Conservatory. \\
   Performing regularly in public has taught me to manage performance anxiety and maintain peak focus under pressure. ***
 }
 {|
-  == Scouting <em>- 11 years</em> ==
-  Through eleven years of scouting, I developed a profound commitment to teamwork, mutual aid, and collective responsibility. These experiences in nature required constant adaptability and initiative, whether leading a group or working independently. \\
+  == Scouting <em>- 9 years</em> ==
+  Through nine years of scouting, I developed a profound commitment to teamwork, mutual aid, and collective responsibility. These experiences in nature required constant adaptability and initiative, whether leading a group or working independently. \\
   The leadership roles and field challenges I navigated have shaped my character, fostering a strong sense of reliability and interpersonal cohesion that I bring to every project. ***
 }

@@ -230,7 +230,7 @@ header h1 {
   gap: 30px;
 }
 
-#side-menu button {
+#side-menu button, #side-menu a {
   padding: 0;
   margin: 10px 10px;
 
@@ -239,10 +239,11 @@ header h1 {
 
   font-family: "Roboto";
   font-size: 1.3em;
+  text-align: center;
   color: var(--gray);
 }
 
-#side-menu button:hover {
+#side-menu button:hover, #side-menu a:hover {
   text-decoration: underline;
 }
 
