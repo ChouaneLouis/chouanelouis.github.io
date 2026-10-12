@@ -1,0 +1,18 @@
+---
+import type { PersonalData } from '../data/schema';
+
+interface Props {
+  personal: PersonalData;
+}
+
+const { personal } = Astro.props;
+---
+
+<header class="max-w-280 mx-auto mb-15 px-2 w-full">
+    <h1 class="font-alfa text-5xl md:text-8xl">{ personal.name }</h1>
+    <h2 class="text-2xl font-bold my-5 md:text-3xl">{ personal.title }</h2>
+    <div class="flex flex-col items-center gap-5 md:flex-row">
+        <img src={ personal.picture } class="px-10 w-full max-w-100 md:w-70 md:px-0" />
+        <p class="whitespace-pre-line">{ personal.bio }</p>
+    </div>
+</header>
