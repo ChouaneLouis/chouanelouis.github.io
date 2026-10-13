@@ -1,0 +1,14 @@
+---
+import type { CourseData } from '../data/schema';
+
+interface Props {
+    course: CourseData;
+}
+
+const { course } = Astro.props;
+---
+
+<div class="bg-black/15 p-4 pt-2">
+    <h3 class="text-xl font-bold">{ course.title }</h3>
+    <p>{ course.description }</p>
+</div>

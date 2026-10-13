@@ -5,7 +5,7 @@ personal:
     Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 
     Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-  picture: /moi.jpg
+  picture: /moi.png
 
 projects:
   - title: Astro Portfolio Template
@@ -33,25 +33,8 @@ projects:
 experiences:
   - title: Framework d'évaluation d'algorithme SLAM
     company: ISR
-    date: 2026-06-01
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-    techStack:
-      - Rust
-      - Python
-      - Docker
-      - ROS2
-  - title: Framework d'évaluation d'algorithme SLAM
-    company: ISR
-    date: 2026-06-01
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-    techStack:
-      - Rust
-      - Python
-      - Docker
-      - ROS2
-  - title: Framework d'évaluation d'algorithme SLAM
-    company: ISR
-    date: 2026-06-01
+    dateStart: 2026-06-01
+    dateEnd: 2026-08-08
     description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
     techStack:
       - Rust
@@ -59,3 +42,25 @@ experiences:
       - Docker
       - ROS2
 
+courses:
+  - title: Technologie objet
+    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
+  - title: Technologie objet
+    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
+  - title: Technologie objet
+    description: Lorem ipsum dolor sit amet consectetur adipiscing elit.
+  - title: Technologie objet
+    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
+  - title: Technologie objet
+    description: Lorem ipsum dolor sit amet consectetur adipiscing elit.
+
+activities:
+  - title: Orgue en conservatoir
+    duration: 11
+    description: Pratique de l'orgue au conservatoir de thouars.
+  - title: Orgue en conservatoir
+    duration: 11
+    description: Pratique de l'orgue au conservatoir de thouars.
+  - title: Orgue en conservatoir
+    duration: 11
+    description: Pratique de l'orgue au conservatoir de thouars.

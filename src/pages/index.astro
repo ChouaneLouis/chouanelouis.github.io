@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css'
 import About from '../components/About.astro';
+import ActivitySection from '../components/ActivitySection.astro';
+import CourseSection from '../components/CourseSection.astro'
 import ProjectSection from '../components/ProjectSection.astro'
 import ExperienceSection from '../components/ExperienceSection.astro'
 
@@ -30,13 +32,15 @@ const content = parseResult.data;
             <a href="#projects" class="md:text-xl text-teal-700 underline">projets</a>
             <a href="#experiences" class="md:text-xl text-teal-700 underline">stages</a>
             <a href="#courses" class="md:text-xl text-teal-700 underline">cours</a>
-            <a href="#qctivities" class="md:text-xl text-teal-700 underline">activitées</a>
+            <a href="#activities" class="md:text-xl text-teal-700 underline">activitées</a>
         </nav>
 
         <main class="flex flex-col">
             <About personal={ content.personal } />
             <ProjectSection projects={ content.projects } />
             <ExperienceSection experiences={ content.experiences } />
+            <CourseSection courses={ content.courses } />
+            <ActivitySection activities={ content.activities } />
         </main>
 	</body>
 </html>

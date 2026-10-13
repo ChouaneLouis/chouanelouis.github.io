@@ -1,0 +1,14 @@
+---
+import type { ActivityData } from '../data/schema';
+
+interface Props {
+    activity: ActivityData;
+}
+
+const { activity } = Astro.props;
+---
+
+<div class="bg-black/15 p-4 pt-2">
+    <h3 class="text-xl font-bold">{ activity.title } - {activity.duration } ans</h3>
+    <p>{ activity.description }</p>
+</div>

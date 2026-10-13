@@ -1,0 +1,21 @@
+---
+import Activity from './Activity.astro'
+import type { ActivityData } from '../data/schema';
+
+interface Props {
+    activities: ActivityData[];
+}
+
+const { activities } = Astro.props;
+---
+
+<section class="bg-gray-700 text-white" id="activities">
+    <div class="max-w-280 mx-auto pt-10 pb-15 px-2 w-full">
+        <h2 class="text-4xl text-center font-alfa md:text-left">Activités</h2>
+        <div class="grid grid-cols-[repeat(auto-fit,minmax(22rem,1fr))] gap-6 mt-4">
+            {activities.map((activity) => (
+                <Activity activity={ activity } />
+            ))}
+        </div>
+    </div>
+</section>

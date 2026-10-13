@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --color-rust: #b7410e;
+  --color-rust-dark: #8e320b;
+  --color-surface: #f8fafc;
+}
+
 @font-face {
   font-family: 'Alfa Slab One';
   src: url('/fonts/AlfaSlabOne-Regular.ttf') format('truetype');

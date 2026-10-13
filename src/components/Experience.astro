@@ -7,16 +7,21 @@ interface Props {
 
 const { experience } = Astro.props;
 
-const date = new Intl.DateTimeFormat("fr", {
+const dateStart = new Intl.DateTimeFormat("fr", {
     day: "numeric",
     month: "short",
     year: "numeric"
-}).format(experience.date);
+}).format(experience.dateStart);
+const dateEnd = new Intl.DateTimeFormat("fr", {
+    day: "numeric",
+    month: "short",
+    year: "numeric"
+}).format(experience.dateEnd);
 ---
 
-<article class="border-l-15 border-pink-900 pl-2">
+<article class="border-l-15 border-black/15 pl-2">
     <h3 class="text-2xl font-bold">{ experience.title } - { experience.company }</h3>
-    <p class="italic ml-10">{ date } - { date }</p>
+    <p class="italic ml-10">{ dateStart } - { dateEnd }</p>
     <p class="mt-2">{ experience.description }</p>
     <ul class="flex flex-wrap italic gap-x-5 mt-2">
         {experience.techStack.map((tech) => (
