@@ -1,66 +1,105 @@
 personal:
   name: Louis Chouane
-  title: Étudiant ingénieur en sciences numérique à l'ENSEEIHT.
+  title: Étudiant ingénieur en sciences numériques à l'ENSEEIHT
   bio: |
-    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+    Passionné par l'informatique depuis plusieurs années, je suis actuellement étudiant en dernière année à l'ENSEEIHT (spécialité Génie Logiciel). Je suis particulièrement stimulé par la R&D, la résolution de problèmes complexes et la conception d'architectures applicatives robustes.
+    Je suis à la recherche d'un stage de fin d'études (PFE) de 6 mois à Toulouse à partir de mi-mars 2026.
 
-    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+    Ce portfolio offre un aperçu détaillé de mes projets, de mes expériences d'ingénierie et de mon parcours académique.
+
+    N'hésitez pas à me contacter par email : chouane.louis@gmail.com.
   picture: /moi.png
 
 projects:
-  - title: Astro Portfolio Template
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+  - title: Jeu de Catan en ligne
+    description: Conception et développement d'une plateforme de jeu en ligne temps réel. Implémentation de la logique métier, gestion des sessions, synchronisation d'état via WebSockets, système d'authentification et persistance des données.
     techStack:
-      - Astro
-      - TypeScript
-      - HTML
-      - Tailwind CSS
-  - title: Astro Portfolio Template
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+      - Java
+      - Spring Boot
+      - React
+      - WebSocket
+  - title: Compilateur Java
+    description: Développement d’un compilateur traduisant un sous-ensemble du langage Java en instructions pour un CPU virtuel à pile. Analyse syntaxique/lexicale avec ANTLR, construction et vérification statique de l'AST, et génération du code machine cible.
     techStack:
-      - Astro
-      - TypeScript
-      - HTML
-      - Tailwind CSS
-  - title: Astro Portfolio Template
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+      - Java
+      - ANTLR
+  - title: Agents mobiles distribués
+    description: Conception d’agents logiciels autonomes capables de migrer dynamiquement entre des nœuds réseau via Java RMI et un Classloader personalisé. Permet d'étendre des API distantes sans modifier le backend et de déporter les traitements lourds (comme l'agrégation de données) pour réduire la bande passante.
     techStack:
-      - Astro
-      - TypeScript
-      - HTML
-      - Tailwind CSS
+      - Java
+      - RMI
+      - Multithreading
+      - Custom Classloader
+  - title: Jeu de casse-briques en programmation fonctionnelle
+    description: Implémentation d'un moteur de jeu d'arcade selon le paradigme fonctionnel pur. Exploration avancée des concepts de récursion, d'immutabilité, de structures de données persistantes et de gestion d'état sans effets de bord.
+    techStack:
+      - OCaml
+      - Programmation fonctionnelle
+      - Monades
+      - Foncteurs
+      - Effets algébriques
+  - title: Simulation de colonie de fourmis en temps réel
+    description: Développement d'une application de simulation multi-agents interactive. Modélisation du comportement émergent d'une colonie (recherche de nourriture, obstacles) avec interface graphique Java Swing. Projet réalisé en équipe de 8 personnes en méthodologie Agile (Scrum).
+    techStack:
+      - Java
+      - Swing
+      - JUnit 4
+      - Agile
 
 experiences:
-  - title: Framework d'évaluation d'algorithme SLAM
+  - title: Framework d'évaluation d'algorithmes SLAM
     company: ISR
     dateStart: 2026-06-01
     dateEnd: 2026-08-08
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+    location: Coimbra
+    description: Développement d'un environnement d'évaluation de performances pour algorithmes de localisation et cartographie. Conteneurisation de l'environnement de test via Docker et migration complète de l'architecture logicielle de ROS1 vers ROS2.
     techStack:
       - Rust
       - Python
       - Docker
       - ROS2
+  - title: Manœuvre du bâtiment
+    company: Silva é Rollo Construção
+    dateStart: 2025-06-06
+    dateEnd: 2025-07-18
+    location: Vila de Rei
+    description: Travaux de maçonnerie au sein d'une entreprise portugaise. Expérience du travail en équipe internationale et du respect de consignes de sécurité strictes.
+    techStack: []
+  - title: Développement de la plateforme ANTARES
+    company: RTE
+    dateStart: 2025-04-10
+    dateEnd: 2025-06-07
+    location: Paris
+    description: Participation au développement d'ANTARES, solution open-source de simulation et d'optimisation économique du réseau de transport d'électricité européen.
+    techStack:
+      - Python
+      - C/C++
+      - ANTLR
 
 courses:
   - title: Technologie objet
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
-  - title: Technologie objet
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
-  - title: Technologie objet
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit.
-  - title: Technologie objet
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
-  - title: Technologie objet
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit.
+    description: Conception logicielle avancée, réutilisation, patrons de conception pour l'architecture applicative.
+  - title: Architecture et systèmes
+    description: Compréhension des couches bas niveau, gestion de la mémoire, fonctionnement des processeurs et interaction système/matériel.
+  - title: Computer graphics et deep learning
+    description: Notions fondamentales de rendu 3D, de traitement d'images et d'apprentissage profond appliqué aux données visuelles.
+  - title: Sémantique et traduction des langages
+    description: Théorie des langages, grammatures, analyse syntaxique, sémantique formelle et compilation vers du code machine.
+  - title: Réseaux
+    description: Protocols de communication, réseaux locaux et problématiques de routage au sein de réseau publique.
+  - title: Systèmes concurrents et communicants
+    description: Programmation multithread, synchronisation, gestion des sections critiques et architecture de systèmes distribués.
 
 activities:
-  - title: Orgue en conservatoir
+  - title: Orgue au conservatoire
     duration: 11
-    description: Pratique de l'orgue au conservatoir de thouars.
-  - title: Orgue en conservatoir
-    duration: 11
-    description: Pratique de l'orgue au conservatoir de thouars.
-  - title: Orgue en conservatoir
-    duration: 11
-    description: Pratique de l'orgue au conservatoir de thouars.
+    description: Pratique de l'orgue au Conservatoire de Thouars.
+  - title: Radioamateur
+    duration: 3
+    description: Étude des réseaux radio, du traitement du signal et de la réglementation télécoms.
+  - title: Scoutisme
+    duration: 9
+    description: Activités d'engagement en plein air. Développement de la cohésion d'équipe, de la résilience et du sens du service.
+  - title: Escalade
+    duration: 4
+    description: Initiateur d'escalade au club universitaire (AS INP). Prise de responsabilité, encadrement du public et gestion de la sécurité.

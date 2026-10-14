@@ -18,6 +18,7 @@ export const experienceSchema = z.object({
     company: z.string(),
     dateStart: z.date(),
     dateEnd: z.date(),
+    location: z.string(),
     description: z.string(),
     techStack: z.array(z.string()),
 });
