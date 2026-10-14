@@ -1,0 +1,21 @@
+---
+import Course from './Course.astro'
+import type { CourseData } from '../data/schema';
+
+interface Props {
+    courses: CourseData[];
+}
+
+const { courses } = Astro.props;
+---
+
+<section class="bg-pink-900 text-white" id="courses">
+    <div class="max-w-280 mx-auto pt-10 pb-15 px-2 w-full">
+        <h2 class="text-4xl text-center font-alfa md:text-left">Cours</h2>
+        <div class="grid grid-cols-[repeat(auto-fit,minmax(22rem,1fr))] gap-6 mt-4">
+            {courses.map((course) => (
+                <Course course={ course } />
+            ))}
+        </div>
+    </div>
+</section>

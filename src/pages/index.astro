@@ -1,0 +1,46 @@
+---
+import '../styles/global.css'
+import About from '../components/About.astro';
+import ActivitySection from '../components/ActivitySection.astro';
+import CourseSection from '../components/CourseSection.astro'
+import ProjectSection from '../components/ProjectSection.astro'
+import ExperienceSection from '../components/ExperienceSection.astro'
+
+import portfolioRawData from '../data/portfolio.yaml';
+import { portfolioSchema } from '../data/schema';
+
+// Validate data structure at build time
+const parseResult = portfolioSchema.safeParse(portfolioRawData);
+
+if (!parseResult.success) {
+  console.error(parseResult.error);
+  throw new Error("Invalid portfolio.yaml structure.");
+}
+
+const content = parseResult.data;
+---
+
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Louis Chouane</title>
+    </head>
+    <body>
+        <nav class="flex flex-wrap gap-x-10 my-5 md:mr-10 items-center justify-center md:justify-end">
+            <a href="#projects" class="md:text-xl text-teal-700 underline">projets</a>
+            <a href="#experiences" class="md:text-xl text-teal-700 underline">stages</a>
+            <a href="#courses" class="md:text-xl text-teal-700 underline">cours</a>
+            <a href="#activities" class="md:text-xl text-teal-700 underline">activités</a>
+        </nav>
+
+        <main class="flex flex-col">
+            <About personal={ content.personal } />
+            <ProjectSection projects={ content.projects } />
+            <ExperienceSection experiences={ content.experiences } />
+            <CourseSection courses={ content.courses } />
+            <ActivitySection activities={ content.activities } />
+        </main>
+	</body>
+</html>

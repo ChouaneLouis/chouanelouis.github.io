@@ -1,0 +1,31 @@
+---
+import type { ExperienceData } from '../data/schema';
+
+interface Props {
+    experience: ExperienceData;
+}
+
+const { experience } = Astro.props;
+
+const dateStart = new Intl.DateTimeFormat("fr", {
+    day: "numeric",
+    month: "short",
+    year: "numeric"
+}).format(experience.dateStart);
+const dateEnd = new Intl.DateTimeFormat("fr", {
+    day: "numeric",
+    month: "short",
+    year: "numeric"
+}).format(experience.dateEnd);
+---
+
+<article class="border-l-15 border-white/15 pl-2">
+    <h3 class="text-2xl font-bold">{ experience.title } - { experience.company }</h3>
+    <p class="italic ml-8">{ dateStart } - { dateEnd } - { experience.location }</p>
+    <p class="mt-2">{ experience.description }</p>
+    <ul class="flex flex-wrap italic gap-x-5 mt-2">
+        {experience.techStack.map((tech) => (
+            <li>{ tech }</li>
+        ))}
+    </ul>
+</article>
